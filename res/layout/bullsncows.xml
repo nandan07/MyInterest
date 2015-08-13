@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:weightSum="100">
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/textView1" android:text="Enter the word"
+		android:layout_marginLeft="5dp" android:layout_marginTop="10dp"></TextView>
+	<EditText android:id="@+id/editText1" android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+		<requestFocus></requestFocus>
+	</EditText>
+	<Button android:layout_height="wrap_content" android:id="@+id/button1"
+		android:layout_width="95dp" android:textSize="15dp" android:text="Submit"></Button>
+	<ScrollView android:layout_marginBottom="20dp" android:layout_width="fill_parent" android:layout_height="match_parent">
+		<LinearLayout android:layout_width="match_parent" android:orientation="vertical" android:layout_height="match_parent">
+			<TextView android:layout_width="match_parent" android:text="Enter a 4 letter word." android:layout_height="wrap_content" android:id="@+id/txv" android:textSize="20dp"></TextView>
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

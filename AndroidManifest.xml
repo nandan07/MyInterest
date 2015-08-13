@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="Package.Nandan"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        
+        
+        <activity android:name=".MyProjectActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MYACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Application">
+            <intent-filter>
+                <action android:name="android.intent.action.APPLICATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Draw">
+            <intent-filter>
+                <action android:name="android.intent.action.DRAW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".BullsnCows">
+            <intent-filter>
+                <action android:name="android.intent.action.BULLSNCOWS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Congrats">
+            <intent-filter>
+                <action android:name="android.intent.action.CONGRATS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".Game">
+            <intent-filter>
+                <action android:name="android.intent.action.GAME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Help"
+         android:theme="@android:style/Theme.Dialog"
+         >
+            <intent-filter>
+                <action android:name="android.intent.action.HELP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".DrawHelp"
+         android:theme="@android:style/Theme.Dialog"
+         >
+            <intent-filter>
+                <action android:name="android.intent.action.DRAWHELP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+
+    </application>
+</manifest>

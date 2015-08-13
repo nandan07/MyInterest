@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:text="(1) When You run the game, the Game assumes a 4 letter word (no plurals and proper nouns).
+(2) Type your guess in the text box and click OK.
+(3) If there is a letter common to the word assumed by the computer and the word guessed, a 'Bull' is indicated, if the letters are in the same position in both the words.
+(4) If there is a letter common to both the words and if the letters are not in the same position in both the words, a 'Cow' is indicated.
+(5) Zero-in your guess with the help of the clue of number of 'Bulls' and 'Cows' and find out the word assumed by the computer.
+(6) No letters in a given word repeat.
+(7) Must be a 4 letter word." 
+    
+    
+    android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="match_parent" android:layout_height="match_parent"></TextView>
+  
+    
+</LinearLayout>
